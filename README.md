@@ -1,5 +1,5 @@
 # OpenIMPRESS - Complete project
-This includes, as submodules, all other
+This includes, as submodules, all OpenIMPRESS components.
 
 # Setup
 Clone this repository and initialize the submodules.
