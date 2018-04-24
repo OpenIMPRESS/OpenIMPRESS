@@ -4,9 +4,11 @@ This includes, as submodules, all OpenIMPRESS components.
 # Setup
 Clone this repository and initialize the submodules.
 
-```git clone https://github.com/OpenIMPRESS/OpenIMPRESS.git```
-```cd OpenIMPRESS```
-```git submodule update --init --recursive```
+```git clone https://github.com/OpenIMPRESS/OpenIMPRESS.git```  
+
+```cd OpenIMPRESS```  
+
+```git submodule update --init --recursive``` 
 
 Then, you can compile/run the components you need.
 A typical basic setup contains the RGBD streaming and a Unity
