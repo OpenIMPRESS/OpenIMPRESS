@@ -1,0 +1,30 @@
+[submodule "tools/oi.tool.matchmaker"]
+	path = tools/oi.tool.matchmaker
+	url = https://github.com/OpenIMPRESS/oi.tool.matchmaker.git
+[submodule "clients/oi.client.rgbd.libfreenect2"]
+	path = clients/oi.client.rgbd.libfreenect2
+	url = https://github.com/OpenIMPRESS/oi.client.rgbd.libfreenect2.git
+[submodule "clients/oi.client.rgbd.libfreenect"]
+	path = clients/oi.client.rgbd.libfreenect
+	url = https://github.com/OpenIMPRESS/oi.client.rgbd.libfreenect.git
+[submodule "clients/oi.client.desktop"]
+	path = clients/oi.client.desktop
+	url = https://github.com/OpenIMPRESS/oi.client.desktop.git
+[submodule "clients/oi.client.rgbd.kinectsdk2"]
+	path = clients/oi.client.rgbd.kinectsdk2
+	url = https://github.com/OpenIMPRESS/oi.client.rgbd.kinectsdk2.git
+[submodule "clients/oi.client.immersed_observer"]
+	path = clients/oi.client.immersed_observer
+	url = https://github.com/OpenIMPRESS/oi.client.immersed_observer.git
+[submodule "clients/oi.client.rgbd.librealsense"]
+	path = clients/oi.client.rgbd.librealsense
+	url = https://github.com/OpenIMPRESS/oi.client.rgbd.librealsense.git
+[submodule "dependencies/libfreenect"]
+	path = dependencies/libfreenect
+	url = https://github.com/OpenKinect/libfreenect.git
+[submodule "dependencies/libfreenect2"]
+	path = dependencies/libfreenect2
+	url = https://github.com/OpenKinect/libfreenect2.git
+[submodule "dependencies/asio"]
+	path = dependencies/asio
+	url = https://github.com/chriskohlhoff/asio.git
