@@ -38,32 +38,36 @@ See the respective repositories on the OpenIMPRESS Github page:
 - HMD to HMD audio streaming (supporting both Desktop and Hololens).
 
 ## Setup the On-site Operator tool
-Requirements: Unity 2017.4 (LTS), Visual Studio with all dependencies for UWP/Hololens development.
-Open the folder `OpenIMPRESS/clients/oi.client.hololens` with Unity.
-Next, import the [MixedRealityToolkit Unity package v2017.4.2.0](https://github.com/Microsoft/MixedRealityToolkit-Unity/releases/download/2017.4.2.0/HoloToolkit-Unity-2017.4.2.0.unitypackage).
-Open the scene `Scenes/OSO`. Look at the GameObjects with the UDPConnector component in the hierarchy (grouped under the OpenIMPRESS object) and configure the IP's of the RO client. 
-Build the project and deploy it to the Hololens.
 
-For the marker-based alignment procedure, the Kinects at the capture location need to have the AR markers attached to them.
-See the `OpenIMPRESS/resources/Markers` folder for more details.
+Requirements: Unity 2017.4 (LTS), Visual Studio with all dependencies for UWP/Hololens development.
+
+- Open the folder `OpenIMPRESS/clients/oi.client.hololens` with Unity.
+- Next, import the [MixedRealityToolkit Unity package v2017.4.2.0](https://github.com/Microsoft/MixedRealityToolkit-Unity/releases/download/2017.4.2.0/HoloToolkit-Unity-2017.4.2.0.unitypackage).
+- Open the scene `Scenes/OSO`. Look at the GameObjects with the UDPConnector component in the hierarchy (grouped under the OpenIMPRESS object) and configure the IP's of the RO client. 
+- Build the project and deploy it to the Hololens.
+- For the marker-based alignment procedure, the Kinects at the capture location need to have the AR markers attached to them.
+- See the `OpenIMPRESS/resources/Markers` folder for more details.
 
 Once setup and running, simply look at the marker attached to the kinect you want to calibrate, and perform the hololens 'tap' gesture with your hand.
 
 ## Setup the Kinect Streamer
+
 Requirements: C/C++ development environment. CMake 3.2+. Libfreenect2 and it's dependencies installed (libjpeg-turbo, glew, etc.).
-Go to `OpenIMPRESS/oi.native` and create a `build` folder to run cmake from.
-I.e., for Visual Studio 2017, run `cmake -G "Visual Studio 15 2017 Win64" ..`.
-The the kinect streamer target is `oi.client.rgbd.libfreenect2`. 
-To start the streamer and stream to the RO client, run `oi.client.rgbd.libfreenect2 -ep [ROIP]:5001 -lp 5005`.
+
+- Go to `OpenIMPRESS/oi.native` and create a `build` folder to run cmake from.
+- I.e., for Visual Studio 2017, run `cmake -G "Visual Studio 15 2017 Win64" ..`.
+- The the kinect streamer target is `oi.client.rgbd.libfreenect2`. 
+- To start the streamer and stream to the RO client, run `oi.client.rgbd.libfreenect2 -ep [ROIP]:5001 -lp 5005`.
 
 ## Setup the Remote Operator tool
-Requirements: Unity 2017.4 (LTS). SteamVR/HTC Vive setup.
-Go to `OpenIMPRESS/clients/oi.client.steamvr`. 
-Open the scene `Scenes/RO`. Look at the GameObjects with the UDPConnector component in the hierarchy (grouped under the OpenIMPRESS object) and configure the IP's of the OSO client and Kinect Stream. 
-Run the project.
 
-The 'grip' buttons on the Vive controller allow the RO to shift through space without walking.
-The 'trigger' buttons are used for the line-drawing/annotation tool.
+Requirements: Unity 2017.4 (LTS). SteamVR/HTC Vive setup.
+
+- Go to `OpenIMPRESS/clients/oi.client.steamvr`. 
+- Open the scene `Scenes/RO`. Look at the GameObjects with the UDPConnector component in the hierarchy (grouped under the OpenIMPRESS object) and configure the IP's of the OSO client and Kinect Stream. 
+- Run the project.
+- The 'grip' buttons on the Vive controller allow the RO to shift through space without walking.
+- The 'trigger' buttons are used for the line-drawing/annotation tool.
 
 # TODO's
 
