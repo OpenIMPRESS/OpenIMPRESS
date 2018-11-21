@@ -24,7 +24,7 @@ The Kinect Streamers are used to stream the Kinect data to the RO.
 Using the marker-based alignment procedure, the OSO client estimates and shares the Kinect camera extrinsics
 with the RO, so that the point clouds can be rendered consistently relative to each other.
 What is more, the OSO streams the low-poly spatial mesh to the RO for a low-detail but wide area representation 
-of the capture location.
+of the capture location. The RO client further supports streaming hand/arm pose from the Leap motion.
 
 ## OpenIMPRESS Features
 
@@ -36,6 +36,7 @@ See the respective repositories on the OpenIMPRESS Github page:
 - Line-based annotation system (oi.plugin.linedrawing)
 - Fast RGBD data streaming (see clients in oi.native) and rendering (oi.plugin.rgbd)
 - HMD to HMD audio streaming (supporting both Desktop and Hololens, oi.plugin.audio).
+- Leap Motion Pose streaming (work in progress, oi.plugin.leapmotion)
 
 ## Setup the On-site Operator tool
 
