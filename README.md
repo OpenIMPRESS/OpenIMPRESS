@@ -35,7 +35,7 @@ See the respective repositories on the OpenIMPRESS Github page:
 - Use AR-Markers to align RGBD cameras (oi.plugin.kinectMarkerAlignment)
 - Line-based annotation system (oi.plugin.linedrawing)
 - Fast RGBD data streaming (see clients in oi.native) and rendering (oi.plugin.rgbd)
-- HMD to HMD audio streaming (supporting both Desktop and Hololens).
+- HMD to HMD audio streaming (supporting both Desktop and Hololens, oi.plugin.audio).
 
 ## Setup the On-site Operator tool
 
