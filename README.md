@@ -4,6 +4,29 @@ OpenIMPRESS is a toolkit for mixed reality telepresence applications.
 In this repository, we link include the core components described in 
 our paper published at the [24th symposium on Virtual Reality Software and Technology 2018](https://vrst.acm.org/vrst2018/).
 
+If you use OpenIMPRESS in an academic context, please use this DOI for citation: [10.1145/3281505.3281542](https://doi.org/10.1145/3281505.3281542), or use this bibtex:
+
+```
+@inproceedings{Kolkmeier:2018:LHH:3281505.3281542,
+ author = {Kolkmeier, Jan and Harmsen, Emiel and Giesselink, Sander and Reidsma, Dennis and Theune, Mari\"{e}t and Heylen, Dirk},
+ title = {With a Little Help from a Holographic Friend: The OpenIMPRESS Mixed Reality Telepresence Toolkit for Remote Collaboration Systems},
+ booktitle = {Proceedings of the 24th ACM Symposium on Virtual Reality Software and Technology},
+ series = {VRST '18},
+ year = {2018},
+ isbn = {978-1-4503-6086-9},
+ location = {Tokyo, Japan},
+ pages = {26:1--26:11},
+ articleno = {26},
+ numpages = {11},
+ url = {http://doi.acm.org/10.1145/3281505.3281542},
+ doi = {10.1145/3281505.3281542},
+ acmid = {3281542},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {collaboration, embodiment, mixed reality, telepresence},
+}
+```
+
 # Getting Started
 Clone this repository and initialize the submodules.
 
